@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Clicks Out for Harambe">
+  <meta name="author" content="Ethan Heinzen">
+  <title>#ClicksOutForHarambe</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <script src="javascript.js"></script>
+  <div id="startmenu" class="menu">
+    <div class="menubuttons">
+      <select id="choosesize">
+        <option value="0">--Choose a Difficulty--</option>
+        <option value="10">Easy</option>
+        <option value="25">Medium</option>
+        <option value="50">Hard</option>
+        <option value="100">Impossible</option>
+      </select>
+      <input type="button" id="start" class="menubutton" value="Start" onclick="closeStartMenu()" />
+    </div>
+  </div>
+  <div id="wonmenu" class="menu" style="height:0%">
+    <div class="menubuttons">
+      <span id="won">You won!</span>
+      <input type="button" id="new" class="menubutton" value="New Game" onclick="newgame()" />
+      <input type="button" id="keep" class="menubutton" value="Keep Clicking" onclick="keepgame()" />
+    </div>
+  </div>
+  <div class="shortdiv"><h2>#ClicksOutforHarambe</h2></div>
+  <div id="gamearea">
+    <img alt="A beautiful gorilla: Harambe" src="Harambe.jpg" id="haram-img">
+    <div id="gameboard">
+<!-- game board to be inserted here -->
+    </div>
+  </div>
+  <div class="shortdiv">Clicks so far: <span id="clickcounter">0</span></div>
+  <div class="shortdiv">
+    <input type="button" id="clicker" value="Click here for Harambe" onclick="clickdat()" />
+  </div>
+</body>
+
+</html>
+

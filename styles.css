@@ -1,0 +1,183 @@
+/* main css stuff goes here */
+
+body {
+  overflow: hidden;
+  width: 100%;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+/**********/
+
+.menu {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.menubuttons {
+  position: relative;
+  top: 25%;
+  width: 200px;
+  padding: 0;
+  border: none;
+  margin: 0 auto;
+}
+
+.menubutton {
+  background-color: #b0b0b0;
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 4px 0 0 0;
+  text-align: center;
+}
+.menubutton:hover {
+  background-color: #c0c0c0;
+}
+
+#choosesize {
+  background-color: #b0b0b0;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+#won {
+  display: block;
+  background-color: #b0b0b0;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+
+#gamearea {
+  width: 500px;
+  position: relative;
+  padding: 0;
+  border: black 5px solid;
+  margin: 0 auto;
+  display: block;
+}
+
+#gameboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  clear: both;
+}
+.row10 {
+  min-height: 10%;
+  height: 10%;
+}
+
+.row25 {
+  min-height: 4%;
+  height: 4%;
+}
+
+.row50 {
+  min-height: 2%;
+  height: 2%;
+}
+
+.row100 {
+  min-height: 1%;
+  height: 1%;
+}
+
+.col {
+  background-color: #ffffff;
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  float: left;
+}
+
+.col.trsnp {
+  background-color: transparent;
+}
+
+.col10 {
+  min-width: 10%;
+  width: 10%;
+}
+
+.col25 {
+  min-width: 4%;
+  width: 4%;
+}
+
+.col50 {
+  min-width: 2%;
+  width: 2%;
+}
+
+.col100 {
+  min-width: 1%;
+  width: 1%;
+}
+
+#clicker {
+  display: block;
+  background-color: #b0b0b0;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  white-space: normal;
+  text-align: center;
+}
+
+#clicker:hover {
+  background-color: #c0c0c0;
+}
+
+#clicker:disabled {
+  color: #b0b0b0;
+}
+
+.shortdiv {
+  width: 500px;
+  padding: 0;
+  border: none;
+  margin: 0 auto;
+}
+
+#haram-img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
