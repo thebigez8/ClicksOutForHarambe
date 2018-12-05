@@ -3,6 +3,7 @@
 body {
   overflow: hidden;
   width: 100%;
+  margin: 0;
 }
 
 input[type="button"]:focus {
@@ -10,6 +11,8 @@ input[type="button"]:focus {
 }
 
 /**********/
+
+h1 {margin: 5px 0;}
 
 .menu {
   height: 100%;
@@ -23,7 +26,6 @@ input[type="button"]:focus {
   left: 0;
   background-color: #000000;
   overflow-y: hidden;
-  transition: 0.5s;
 }
 
 .menubuttons {
@@ -180,4 +182,13 @@ input[type="button"]:focus {
   height: 500px;
   display: block;
   margin: 0 auto;
+}
+
+
+@media (max-width: 510px){
+  #haram-img, .shortdiv, #gamearea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #haram-img {height: auto;}
 }
